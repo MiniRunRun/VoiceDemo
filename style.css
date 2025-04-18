@@ -1,0 +1,91 @@
+
+
+@font-face {
+    font-family: 'dutch811_btbold';
+    src: url('du811bd-webfont.woff2') format('woff2'),
+         url('du811bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dutch811_btbold_italic';
+    src: url('du811bi-webfont.woff2') format('woff2'),
+         url('du811bi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dutch811_btitalic';
+    src: url('du811it-webfont.woff2') format('woff2'),
+         url('du811it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dutch811_btroman';
+    src: url('du811rm-webfont.woff2') format('woff2'),
+         url('du811rm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    text-align: center;
+    font-size: 400px;
+}
+
+h2{
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    line-height: 1;
+}
+
+p{
+    font-family: 'dutch811_btbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.static{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: -1;
+}
+
+.text{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    height:auto;
+    width:100%;
+    z-index: 50;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
