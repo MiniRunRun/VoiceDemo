@@ -13,7 +13,6 @@ function setup() {
   createCanvas(1000, 1000);
 
   // Set the background black
-  background(0);
   
   // Image mode center will center the image on the mouse, comment out to see the difference
   imageMode(CENTER);
@@ -25,5 +24,4 @@ function draw() {
 }
 
 function mousePressed(){
- background(0);
 }
