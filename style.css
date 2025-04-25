@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'dutch811_btbold';
-    src: url('du811bd-webfont.woff2') format('woff2'),
-         url('du811bd-webfont.woff') format('woff');
+    src: url('./assets/du811bd-webfont.woff2') format('woff2'),
+         url('./assets/du811bd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -14,8 +14,8 @@
 
 @font-face {
     font-family: 'dutch811_btbold_italic';
-    src: url('du811bi-webfont.woff2') format('woff2'),
-         url('du811bi-webfont.woff') format('woff');
+    src: url('./assets/du811bi-webfont.woff2') format('woff2'),
+         url('./assets/du811bi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,8 +26,8 @@
 
 @font-face {
     font-family: 'dutch811_btitalic';
-    src: url('du811it-webfont.woff2') format('woff2'),
-         url('du811it-webfont.woff') format('woff');
+    src: url('./assets/du811it-webfont.woff2') format('woff2'),
+         url('./assets/du811it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -38,8 +38,8 @@
 
 @font-face {
     font-family: 'dutch811_btroman';
-    src: url('du811rm-webfont.woff2') format('woff2'),
-         url('du811rm-webfont.woff') format('woff');
+    src: url('./assets/u811rm-webfont.woff2') format('woff2'),
+         url('./assets/du811rm-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

@@ -3,11 +3,11 @@ let img;
 
 function preload() {
   // Load the image
-  img = loadImage("./brush.jpg");
+  img = loadImage("./assets/brush.jpg");
 }
 
 function setup() {
-    let cnv=createCanvas(windowWidth, windowHeight);
+    let cnv = createCanvas(windowWidth, windowHeight);
     cnv.position(0,0);
     cnv.style('z-index', '-2');
     cnv.style('position', 'absolute');
