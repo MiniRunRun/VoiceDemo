@@ -1,6 +1,3 @@
-let s = function(p) {}
-new p5(s);
-
 // Mouse to draw!
 let img;
 
