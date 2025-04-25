@@ -11,7 +11,6 @@ function setup() {
     cnv.position(0,0);
     cnv.style('z-index', '-2');
     cnv.style('position', 'absolute');
-  createCanvas(1000, 1000);
 
   // Set the background black
   background(0,0,0,0);
