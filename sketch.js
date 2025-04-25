@@ -1,6 +1,3 @@
-let s = function(p) {}
-new p5(s);
-
 // Mouse to draw!
 let img;
 
@@ -10,6 +7,10 @@ function preload() {
 }
 
 function setup() {
+    let cnv=createCanvas(windowwidth, widowheight);
+    cnv.position(0,0);
+    cnv.style('z-index', '-2')
+    cnv.style('position', 'absolute')
   createCanvas(1000, 1000);
 
   // Set the background black
