@@ -1,5 +1,3 @@
-// Mouse to draw!
-let img;
 
 function preload() {
   // Load the image
