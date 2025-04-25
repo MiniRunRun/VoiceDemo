@@ -9,9 +9,8 @@ function preload() {
 function setup() {
     let cnv = createCanvas(windowWidth, windowHeight);
     cnv.position(0,0);
-    cnv.style('z-index', '55');
+    cnv.style('z-index', '999');
     cnv.style('position', 'absolute');
-    createCanvas(1000, 1000);
 
   // Set the background black
   background(0,0,0,0);
@@ -28,3 +27,6 @@ function draw() {
 function mousePressed(){
     background(0,0,0,0);
 }
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }
