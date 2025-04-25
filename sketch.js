@@ -6,7 +6,7 @@ let img;
 
 function preload() {
   // Load the image
-  img = loadImage("brush.jpg");
+  img = loadImage("./brush.jpg");
 }
 
 function setup() {
