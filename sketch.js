@@ -25,5 +25,5 @@ function draw() {
 }
 
 function mousePressed(){
- background(0);
+    background(0,0,0,0);
 }
